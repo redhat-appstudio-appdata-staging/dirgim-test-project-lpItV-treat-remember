@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/kpavic-tenant/dirgim-test-project/dirgim-test-project@sha256:971fdde6bc37b49beb6e39d8562e39d8bae189b6a44e42295559290e9120839c
+      - image: quay.io/redhat-user-workloads-stage/kpavic-tenant/dirgim-test-project/dirgim-test-project@sha256:648688be614a568ead727d04b0a0f609426d47fcbcbffdc4381773f49a0dd90c
         name: hacbs-jvm-build-test-project
         resources: {}
 status: {}
