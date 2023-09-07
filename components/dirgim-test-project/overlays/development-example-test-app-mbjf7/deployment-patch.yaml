@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dirgim-test-project
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/kpavic-tenant/dirgim-test-project/dirgim-test-project@sha256:4e78f42d3719f411a0a8ea8723fb4e152db2b9e30eac1c4e160ccf11872d4533
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
