@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dirgim-test-project
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/kpavic-tenant/dirgim-test-project/dirgim-test-project@sha256:bbfba4f4452689ba2a8a8f7f39685e9a4ceec5da9e9c8b1e42dedaa41325e3eb
+      - image: quay.io/redhat-user-workloads-stage/kpavic-tenant/dirgim-test-project/dirgim-test-project@sha256:4e78f42d3719f411a0a8ea8723fb4e152db2b9e30eac1c4e160ccf11872d4533
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
